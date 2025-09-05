@@ -23,7 +23,7 @@ favicon:
 tagline: 기억보단 기록을 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  대학교에서 배운 것들 제때 정리해두지 않은게 한이 되서 만든 블로그.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -153,7 +153,18 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+feed:
+  path: atom.xml
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-archives
+
+# paginate: 10
+paginate: 6
+paginate_path: "/page:num/"
 
 # The base URL of your site
 baseurl: ""
