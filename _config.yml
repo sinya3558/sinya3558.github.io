@@ -16,7 +16,9 @@ timezone: Asia/Seoul
 # ↓ --------------------------
 
 title: Sis'Log # the main title
-favicon: assets/img/favicon_32.png
+favicon:
+  ico: assets/img/favicons/favicon.ico
+  png: assets/img/favicons/favicon-32x32.png
 
 tagline: 기억보단 기록을 # it will display as the subtitle
 
@@ -107,7 +109,9 @@ avatar: assets/img/op1.jpg
 social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
+# Sidebar
 toc: true
+toc_sticky: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
