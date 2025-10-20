@@ -35,6 +35,11 @@ github:
 # twitter:
 #   username: twitter_username # change to your Twitter username
 
+author:
+  name: "Seunga Kim"
+  # avatar: "/assets/img/profile.png"
+
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
