@@ -1,0 +1,121 @@
+/* ================================================
+   Custom Post Style (for Notion-like Clean Blog)
+   ================================================= */
+
+/* 제목 구조 */
+.post-content h1, .post-content h2, .post-content h3 {
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+/* h2 스타일 (좌측 파란선 강조) */
+.post-content h2 {
+  border-left: 6px solid #4da3ff;
+  padding-left: 12px;
+  background-color: #f9fbff;
+}
+
+/* h3 라벨 느낌 (예: "3 Action" 부분처럼) */
+.post-content h3 {
+  display: inline-block;
+  background-color: #eaf3ff;
+  color: #004c99;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-top: 1.6em;
+}
+
+/* 단락 간격 및 글줄 */
+.post-content p {
+  line-height: 1.8;
+  color: #333;
+  margin: 0.6em 0;
+}
+
+/* 강조 색상 */
+.post-content strong {
+  color: #222;
+  font-weight: 700;
+}
+
+/* 밑줄 강조 (==단발성== 이런 것) */
+.post-content mark {
+  background-color: #fff3b0;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+/* 블록 인용문 (노란 박스 영역) */
+.post-content blockquote {
+  background-color: #fff9e6;
+  border-left: 4px solid #ffd34f;
+  padding: 0.8em 1.2em;
+  margin: 1.5em 0;
+  color: #444;
+}
+
+/* 코드 블록 */
+.post-content pre code {
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 1em;
+  display: block;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+/* inline code */
+.post-content code {
+  background-color: #f1f3f4;
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: 0.9em;
+}
+
+/* 표 스타일 */
+.post-content table {
+  border-collapse: collapse;
+  margin: 1.2em 0;
+  width: 100%;
+  font-size: 0.95em;
+}
+
+.post-content th {
+  background: #eaf4ff;
+  color: #003366;
+  font-weight: 600;
+  border-bottom: 2px solid #cde3ff;
+  padding: 0.6em;
+}
+
+.post-content td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.6em;
+}
+
+/* 참고/노트 스타일 */
+.post-content .note {
+  background-color: #eaf4ff;
+  border-left: 4px solid #4da3ff;
+  padding: 0.8em 1.2em;
+  margin: 1.2em 0;
+  color: #2c3e50;
+}
+
+/* 링크 색상 */
+.post-content a {
+  color: #0069c0;
+  text-decoration: none;
+}
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
