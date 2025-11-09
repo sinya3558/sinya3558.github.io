@@ -1,12 +1,14 @@
 ---
-layout: single
 title:  "SGD vs SGD w.모멘텀 비교"
 description: "ipynb 파일을 .md 로 변환시켜 올려보는 테스트 글"
+author: Seunga Kim
 date: 2025-10-31
 categories: [Deep Learning]
 tag: [Optimization, Gradient Descent]
 toc: true
+toc_label: "Table of Contents"
 author_profile: True
+comments: false
 ---
 
 # (1) 경사하강법(SGD) 과 (2) 모멘텀을 적용한 SGD 비교
