@@ -2,7 +2,7 @@
 title: "딥러닝 파이썬 패키지 (3)"
 description: "딥러닝의 기초가 되는 데이터 분석 라이브러리 : seaborn, opencv 개요와 활용 방법을 정리한 노트 - (하)"
 author: Seunga Kim
-date: 2025-10-21
+date: 2025-11-09
 categories: [Python]
 tags: [Deep Learning, Data Analysis]
 image: /assets/img/dl.png

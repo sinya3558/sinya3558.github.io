@@ -137,10 +137,6 @@ Y = torch.tensor(Y)
 # print(X, Y)
 ```
 
-<pre>
-[166. 176. 171. 173. 169.] [58.7 75.7 62.1 70.4 60.1]
-tensor([-5.,  5.,  0.,  2., -2.], dtype=torch.float64) tensor([-6.7000, 10.3000, -3.3000,  5.0000, -5.3000], dtype=torch.float64)
-</pre>
 
 ```python
 # 최적화 함수 사용하기
@@ -200,59 +196,6 @@ for epoch in range(num_epochs):
         print(f"Epoch: {epoch + 1}, Loss: {loss.item():.3f}")
 ```
 
-<pre>
-Epoch: 1, Loss: 13.352000000000013
-Epoch: 11, Loss: 10.385507595115332
-Epoch: 21, Loss: 8.517290788930145
-Epoch: 31, Loss: 7.336381106095175
-Epoch: 41, Loss: 6.585766150186489
-Epoch: 51, Loss: 6.10470543208963
-Epoch: 61, Loss: 5.79266371572748
-Epoch: 71, Loss: 5.586756762875927
-Epoch: 81, Loss: 5.447643447896195
-Epoch: 91, Loss: 5.350703629895281
-Epoch: 101, Loss: 5.280527209758149
-Epoch: 111, Loss: 5.227462141031004
-Epoch: 121, Loss: 5.185457619302882
-Epoch: 131, Loss: 5.150715754503327
-Epoch: 141, Loss: 5.120848272929033
-Epoch: 151, Loss: 5.094348526784347
-Epoch: 161, Loss: 5.070261659317728
-Epoch: 171, Loss: 5.047978542732032
-Epoch: 181, Loss: 5.027106757141466
-Epoch: 191, Loss: 5.007389971158269
-Epoch: 201, Loss: 4.9886571079744835
-Epoch: 211, Loss: 4.970790752648647
-Epoch: 221, Loss: 4.953707713394186
-Epoch: 231, Loss: 4.9373465120754165
-Epoch: 241, Loss: 4.9216594573070225
-Epoch: 251, Loss: 4.906608406221416
-Epoch: 261, Loss: 4.892160531184037
-Epoch: 271, Loss: 4.878287585588823
-Epoch: 281, Loss: 4.864964077046622
-Epoch: 291, Loss: 4.8521665089436805
-Epoch: 301, Loss: 4.839873157841796
-Epoch: 311, Loss: 4.828063558274893
-Epoch: 321, Loss: 4.8167182117834795
-Epoch: 331, Loss: 4.805818473117696
-Epoch: 341, Loss: 4.795346934846826
-Epoch: 351, Loss: 4.785286550614115
-Epoch: 361, Loss: 4.775621229881556
-Epoch: 371, Loss: 4.766335316285357
-Epoch: 381, Loss: 4.757413854810467
-Epoch: 391, Loss: 4.7488426372723795
-Epoch: 401, Loss: 4.740607840239167
-Epoch: 411, Loss: 4.732696256087576
-Epoch: 421, Loss: 4.725095186503433
-Epoch: 431, Loss: 4.7177925003574845
-Epoch: 441, Loss: 4.710776384609207
-Epoch: 451, Loss: 4.704035705671187
-Epoch: 461, Loss: 4.697559591128709
-Epoch: 471, Loss: 4.691337616846559
-Epoch: 481, Loss: 4.685359880215156
-Epoch: 491, Loss: 4.679616772626916
-</pre>
-
 ```python
 # loss 시각화
 plt.plot(history[:, 0], history[:, 1], label= "SGD")
@@ -308,59 +251,6 @@ for epoch in range(num_epochs):
         history2 = np.vstack([history2, item])
         print(f"Epoch: {epoch + 1}, Loss: {loss.item():.4f}")
 ```
-
-<pre>
-Epoch: 1, Loss: 4.5390
-Epoch: 11, Loss: 4.5390
-Epoch: 21, Loss: 4.5390
-Epoch: 31, Loss: 4.5390
-Epoch: 41, Loss: 4.5390
-Epoch: 51, Loss: 4.5390
-Epoch: 61, Loss: 4.5390
-Epoch: 71, Loss: 4.5390
-Epoch: 81, Loss: 4.5390
-Epoch: 91, Loss: 4.5390
-Epoch: 101, Loss: 4.5390
-Epoch: 111, Loss: 4.5390
-Epoch: 121, Loss: 4.5390
-Epoch: 131, Loss: 4.5390
-Epoch: 141, Loss: 4.5390
-Epoch: 151, Loss: 4.5390
-Epoch: 161, Loss: 4.5390
-Epoch: 171, Loss: 4.5390
-Epoch: 181, Loss: 4.5390
-Epoch: 191, Loss: 4.5390
-Epoch: 201, Loss: 4.5390
-Epoch: 211, Loss: 4.5390
-Epoch: 221, Loss: 4.5390
-Epoch: 231, Loss: 4.5390
-Epoch: 241, Loss: 4.5390
-Epoch: 251, Loss: 4.5390
-Epoch: 261, Loss: 4.5390
-Epoch: 271, Loss: 4.5390
-Epoch: 281, Loss: 4.5390
-Epoch: 291, Loss: 4.5390
-Epoch: 301, Loss: 4.5390
-Epoch: 311, Loss: 4.5390
-Epoch: 321, Loss: 4.5390
-Epoch: 331, Loss: 4.5390
-Epoch: 341, Loss: 4.5390
-Epoch: 351, Loss: 4.5390
-Epoch: 361, Loss: 4.5390
-Epoch: 371, Loss: 4.5390
-Epoch: 381, Loss: 4.5390
-Epoch: 391, Loss: 4.5390
-Epoch: 401, Loss: 4.5390
-Epoch: 411, Loss: 4.5390
-Epoch: 421, Loss: 4.5390
-Epoch: 431, Loss: 4.5390
-Epoch: 441, Loss: 4.5390
-Epoch: 451, Loss: 4.5390
-Epoch: 461, Loss: 4.5390
-Epoch: 471, Loss: 4.5390
-Epoch: 481, Loss: 4.5390
-Epoch: 491, Loss: 4.5390
-</pre>
 
 ```python
 # 손실 비교 시각화(SGD 와 SGD w. momentum)

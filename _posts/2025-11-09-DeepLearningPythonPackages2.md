@@ -2,7 +2,7 @@
 title: "딥러닝 파이썬 패키지 (2)"
 description: "딥러닝의 기초가 되는 데이터 분석 라이브러리 : statsmodels, scikit-learn, scipy 개요와 활용 방법을 정리한 노트 - (중)"
 author: Seunga Kim
-date: 2025-10-21
+date: 2025-11-09
 categories: [Python]
 tags: [Deep Learning, Data Analysis]
 image: /assets/img/dl.png
