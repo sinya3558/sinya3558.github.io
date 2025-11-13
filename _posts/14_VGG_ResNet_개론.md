@@ -9,6 +9,10 @@ toc: true
 toc_label: "Table of Contents"
 comments: false
 ---
+##### 📚 참고 자료
+- 🔗 두산 로키 5기 강의자료
+
+---
 
 # 14. VGGNet 과 ResNet
 
