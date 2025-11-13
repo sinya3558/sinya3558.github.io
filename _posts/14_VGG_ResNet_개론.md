@@ -5,7 +5,6 @@ author: Seunga Kim
 date: 2025-11-13
 categories: [Deep Learning]
 tags: [Computer Vision, Image Classification]
-image: /assets/img/dl.png
 toc: true
 toc_label: "Table of Contents"
 comments: false
