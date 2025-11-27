@@ -11,7 +11,7 @@ author_profile: true
 comments: false
 ---
 
-# 23. OpenCV를 이용한 동영상 처리 및 객체 검출 (Part.1)
+# 23. OpenCV (3) : 동영상 처리 및 객체 검출 — Edge & Line Detection 실습
 
 > 엣지(edge) 를 검출하는 기본 연산부터,
 직선(line) 을 찾아내는 Hough Transform까지

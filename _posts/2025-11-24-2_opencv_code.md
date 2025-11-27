@@ -14,7 +14,7 @@ comments: false
 
 <img src="/assets/img/gifs/monday.gif" width="300" alt="monday gif">
 
-# 22. OpenCV (2) : 필터링 기법 코드 실습
+# 22. OpenCV (1) : 기초 이미지 처리 & 필터링 실습
 
 > 영역처리 (Area Processing)
 
